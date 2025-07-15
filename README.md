@@ -14,7 +14,7 @@ Cardano Transaction Sanitizer is a Python application for parsing and exporting 
 ## Usage
 
 1. **Open the Application:**
-   - Run the application using `python cardano_tx_sanitizer/main.py`.
+   - Run the application using `uv run cardano-tx-sanitizer`.
 
 2. **Load a Transaction:**
    - Use the "Open JSON File" button or drag and drop a JSON file containing your transaction.

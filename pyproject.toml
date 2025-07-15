@@ -31,7 +31,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project.gui-scripts]
-cardano-tx-sanitizer = "cardano_tx_sanitizer:app"
+cardano-tx-sanitizer = "cardano_tx_sanitizer.app:main"
 
 [tool.pytest.ini_options]
 minversion = "6.0"

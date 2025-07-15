@@ -22,3 +22,4 @@ wheels/
 /.idea/vcs.xml
 
  .vscode/*
+/.idea/git_toolbox_prj.xml

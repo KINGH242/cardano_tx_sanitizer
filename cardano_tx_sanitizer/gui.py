@@ -41,7 +41,7 @@ class MainWindow(QMainWindow):
         self.parser = TransactionParser()
         self.transaction_data = None
 
-        self.setWindowTitle("Cardano Transaction Parser & Exporter")
+        self.setWindowTitle("Cardano Transaction Sanitizer")
         self.setGeometry(100, 100, 1000, 700)
 
         # Create main layout
@@ -329,9 +329,6 @@ class MainWindow(QMainWindow):
                 }
 
                 dump_json_file(Path(file_path), tx_json)
-
-                # with open(file_path, 'w') as file:
-                #     file.write(self.export_view.toPlainText())
 
                 QMessageBox.information(self, "Success", f"Export saved to {file_path}")
 
