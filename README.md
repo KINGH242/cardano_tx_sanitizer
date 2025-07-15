@@ -35,7 +35,7 @@ Cardano Transaction Sanitizer is a Python application for parsing and exporting 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/cardano_tx_sanitizer.git
+   git clone https://github.com/KINGH242/cardano_tx_sanitizer.git
    ```
 
 2. **Navigate to the project directory:**
@@ -67,7 +67,7 @@ Cardano Transaction Sanitizer is a Python application for parsing and exporting 
 
 ### Building and Distribution
 
-- To build and create installers: `make create-installer`
+- To build and create app using pyinstaller: `make create-app`
 - To create a disk image on macOS: `make create-disk-image`
 
 ## Contributing
